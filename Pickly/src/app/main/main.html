@@ -1,0 +1,61 @@
+<div class="containers">
+  <!-- header -->
+  <div class="header">
+    <div class="hamburger icon">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="logo-image">
+    </div>
+    <div class="login icon">
+      <i class="fa fa-user"></i>
+    </div>
+  </div>
+
+  <!-- slider -->
+  <div class="scroll">
+    <span>
+      <i class="fa fa-star"></i>
+      FEATURED
+    </span>
+    <div class="slider">
+      <ul rn-carousel class="caraousel" rn-carousel-index="index" rn-carousel-buffered="true" rn-carousel-duration="300" rn-carousel-auto-slide="3" rn-carousel-controls-allow-loop="true" >
+        <li ng-repeat="slide in main.sliderImages">
+          <img ng-src="{{'assets/images/'+slide}}"/>
+        </li>
+      </ul>
+    </div>
+
+    <!-- serach -->
+    <div class="search row">
+      <div class="col-xs-12 fullHeight nopadding">
+        <input type="text" placeholder="Find Mobiles..." class="find-input form-control input-lg"/>
+      </div>
+      <span class="col-xs-2 nopadding">
+        <i class="fa fa-search search-icon"></i>
+      </span>
+    </div>
+
+    <div class="tabs">
+      <span ng-click="main.changeTabIndex(0)">COMPARE</span>
+      <span ng-click="main.changeTabIndex(1)">EXPLORE</span>
+    </div>
+
+    <!-- comparison -->
+    <div  ng-if="main.tabIndex==0" class="compare">
+      <div class="oval oval-one-position">
+      </div>
+      <div class="oval oval-two-position">
+      </div>
+      <div class="compare-button">
+        COMPARE
+      </div>
+    </div>
+
+    <!-- multiple blogs -->
+    <div ng-if="main.tabIndex==1" class="blog" ng-repeat="card in main.blogCards">
+      <img ng-src="{{card.image}}"/>
+      <h3>{{card.heading}}</h3>
+      <p>{{card.text}}</p>
+    </div>
+  </div>
+</div>

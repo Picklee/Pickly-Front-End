@@ -1,0 +1,29 @@
+{
+  "slider":[
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+  ],
+  "blogs":[
+    {
+      "image":"assets/images/1.jpg",
+      "heading":"heading 1",
+      "text":"text1"
+    },
+    {
+      "image":"assets/images/2.jpg",
+      "heading":"heading 2",
+      "text":"text2"
+    },
+    {
+      "image":"assets/images/2.jpg",
+      "heading":"heading 2",
+      "text":"text2"
+    },
+    {
+      "image":"assets/images/2.jpg",
+      "heading":"heading 2",
+      "text":"text2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "pickly",
+  "version": "1.0.0",
+  "description": "taboo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EROIN/Pickly-HTML.git"
+  },
+  "author": "Eroin N Setu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EROIN/Pickly-HTML/issues"
+  },
+  "homepage": "https://github.com/EROIN/Pickly-HTML#readme",
+  "dependencies": {
+    "cordova": "^6.3.1",
+    "font-awesome": "^4.6.3"
+  }
+}

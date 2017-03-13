@@ -1,0 +1,216 @@
+.containers
+{
+}
+
+span:focus
+{
+    outline: none;
+    border: 0;
+}
+
+.header
+{
+  height: 8vh;
+  width: 100vw;
+  background-color: steelblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon
+{
+  align-self: center;
+  color: white;
+  font-size: 2em;
+}
+
+.hamburger
+{
+  margin-left: 3vw;
+}
+
+.login
+{
+  margin-right: 3vw;
+}
+
+.scroll
+{
+  height: 92vh;
+  width: 100vw;
+  background-color: rgba(187, 186, 186, 0.22);
+  overflow-y: scroll;
+}
+
+.scroll>span
+{
+  top: 2vh;
+  position: relative;
+  z-index: 100;
+  background-color: aliceblue;
+  left: 2vw;
+  padding: 2px;
+}
+
+.slider
+{
+  height: 30vh;
+  margin-top: -3.6vh;
+}
+
+.slider ul li img
+{
+  height: 100%;
+  width: 100%;
+}
+
+.search
+{
+  height: 6vh;
+  margin: 10px;
+}
+
+.tabs
+{
+  margin: 10px;
+  height: 7vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 6vw;
+}
+
+.tabs span
+{
+  background-color: steelblue;
+  height: 5vh;
+  color: white;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.compare
+{
+  height: 43vh;
+  margin: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  padding-top: 7px;
+  border-radius: 5px;
+}
+
+.blog
+{
+  height: 25vh;
+  background-color: white;
+  margin: 15px;
+  box-shadow: 4px 4px 10px #888888;
+  padding:10px;
+  text-overflow: ellipsis;
+}
+
+.caraousel
+{
+  height: 30vh;
+}
+
+.fullHeight
+{
+  height: 100%
+}
+
+.nopadding
+{
+  padding: 0px !important;
+}
+
+.find-input
+{
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.search span
+{
+  position: relative;
+  bottom: 5.3vh;
+  height: 4vh;
+  width: 10vw;
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 1vw 0 1vw !important;
+  border-left: solid 1px #ccc;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+.oval
+{
+  height: 15vh;
+  background-color: rgba(158, 158, 158, 0.53);
+  width: 38vw;
+  border-radius: 85px;
+  border-color: steelblue;
+  border-width: 2px;
+  border-style: solid;
+  margin: 5vh 8px 7vh;
+}
+
+.oval-one-position
+{
+  float: left;
+}
+
+.oval-two-position
+{
+  float: right;
+}
+
+.compare-button
+{
+  height: 6vh;
+    background-color: steelblue;
+    width: 65vw;
+    position: relative;
+    left: 15vw;
+    top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 6px;
+}
+
+.blog img
+{
+  height: 10vh;
+  border-radius: 5px;
+  float: left;
+}
+
+.blog h3
+{
+  position: relative;
+  bottom: 3vh;
+  left: 3vw;
+}
+
+.blog p
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  left: 3vw;
+  bottom: 3vh;
+}
